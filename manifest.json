@@ -1,0 +1,16 @@
+{
+    "name": "Carbon Footprint Calculator",
+    "description": "Calculates websites carbon footprint",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "startup.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting", "tabs"],
+    "action": {
+        "default_popup": "main_popup.html"
+    },
+    "icons": {
+        "128": "icons/android-chrome-192x192.png"
+    }
+}
